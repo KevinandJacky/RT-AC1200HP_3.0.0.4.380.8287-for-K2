@@ -2437,7 +2437,7 @@ int init_nvram(void)
 			nvram_set("ct_max", "300000");
 		if (nvram_get("wl_mssid") && nvram_match("wl_mssid", "1"))
 			add_rc_support("mssid");
-		add_rc_support("2.4G 5G update usbX2");
+		add_rc_support("2.4G 5G update");
 		add_rc_support("rawifi");
 		add_rc_support("switchctrl");
 		add_rc_support("manual_stb");
@@ -2466,7 +2466,7 @@ int init_nvram(void)
 			nvram_set("ct_max", "300000");
 		if (nvram_get("wl_mssid") && nvram_match("wl_mssid", "1"))
 			add_rc_support("mssid");
-		add_rc_support("2.4G update usbX2");
+		add_rc_support("2.4G update");
 		add_rc_support("rawifi");
 		add_rc_support("switchctrl");
 		add_rc_support("manual_stb");
@@ -2491,7 +2491,7 @@ int init_nvram(void)
 			nvram_set("ct_max", "300000");
 		if (nvram_get("wl_mssid") && nvram_match("wl_mssid", "1"))
 			add_rc_support("mssid");
-		add_rc_support("2.4G update usbX2");
+		add_rc_support("2.4G update");
 		add_rc_support("rawifi");
 		add_rc_support("switchctrl");
 		add_rc_support("manual_stb");
@@ -2540,7 +2540,7 @@ int init_nvram(void)
 
 		if (nvram_get("wl_mssid") && nvram_match("wl_mssid", "1"))
 		add_rc_support("mssid");
-		add_rc_support("2.4G 5G usbX2");
+		add_rc_support("2.4G 5G");
 		add_rc_support("rawifi");
 		add_rc_support("switchctrl");
 		add_rc_support("manual_stb");
@@ -2583,7 +2583,7 @@ int init_nvram(void)
 
 		if (nvram_match("wl_mssid", "1"))
 		add_rc_support("mssid");
-		add_rc_support("2.4G update usbX1");
+		add_rc_support("2.4G update");
 		add_rc_support("rawifi");
 		add_rc_support("switchctrl"); //for hwnat only
 		add_rc_support("manual_stb");
@@ -2655,7 +2655,7 @@ int init_nvram(void)
 
 		if (nvram_get("wl_mssid") && nvram_match("wl_mssid", "1"))
 			add_rc_support("mssid");
-		add_rc_support("2.4G 5G update usbX1");
+		add_rc_support("2.4G 5G update");
 		add_rc_support("rawifi");
 		add_rc_support("switchctrl");
 		add_rc_support("manual_stb");
@@ -2698,7 +2698,7 @@ int init_nvram(void)
 
 		if (nvram_get("wl_mssid") && nvram_match("wl_mssid", "1"))
 			add_rc_support("mssid");
-		add_rc_support("2.4G 5G update usbX1");
+		add_rc_support("2.4G 5G update");
 		add_rc_support("rawifi");
 		add_rc_support("switchctrl");
 		add_rc_support("manual_stb");
@@ -2747,7 +2747,7 @@ int init_nvram(void)
 
 		if (nvram_get("wl_mssid") && nvram_match("wl_mssid", "1"))
 			add_rc_support("mssid");
-		add_rc_support("2.4G 5G update usbX2");
+		add_rc_support("2.4G 5G update");
 		add_rc_support("rawifi");
 		add_rc_support("switchctrl");
 		add_rc_support("manual_stb");
@@ -2788,7 +2788,7 @@ int init_nvram(void)
 
 		if (nvram_get("wl_mssid") && nvram_match("wl_mssid", "1"))
 			add_rc_support("mssid");
-		add_rc_support("2.4G 5G update usbX1");
+		add_rc_support("2.4G 5G update");
 		add_rc_support("rawifi");
 		add_rc_support("switchctrl");
 		add_rc_support("manual_stb");
@@ -2820,7 +2820,7 @@ int init_nvram(void)
 		nvram_set_int("led_wps_gpio",  11|GPIO_ACTIVE_LOW);
 		nvram_set_int("led_5g_gpio", 11|GPIO_ACTIVE_LOW);
 		nvram_set_int("led_2g_gpio", 11|GPIO_ACTIVE_LOW);
-		//nvram_set_int("led_all_gpio", 8|GPIO_ACTIVE_LOW);
+		//nvram_set_int("led_all_gpio", 11|GPIO_ACTIVE_LOW);
 		nvram_set_int("led_lan_gpio", 11|GPIO_ACTIVE_LOW);
 		nvram_set_int("led_wan_gpio", 10|GPIO_ACTIVE_LOW);
 #ifdef RTCONFIG_WIFI_TOG_BTN
@@ -2842,7 +2842,7 @@ int init_nvram(void)
 
 		if (nvram_get("wl_mssid") && nvram_match("wl_mssid", "1"))
 			add_rc_support("mssid");
-		add_rc_support("2.4G 5G update usbX1");
+		add_rc_support("2.4G 5G update");
 		add_rc_support("rawifi");
 		add_rc_support("switchctrl");
 		add_rc_support("manual_stb");
@@ -2924,7 +2924,7 @@ int init_nvram(void)
 
 		if (nvram_get("wl_mssid") && nvram_match("wl_mssid", "1"))
 		add_rc_support("mssid");
-		add_rc_support("2.4G 5G usbX2");
+		add_rc_support("2.4G 5G");
 		add_rc_support("rawifi");
 		add_rc_support("dsl");
 #if defined(RTCONFIG_WIRELESS_SWITCH) || defined(RTCONFIG_WIFI_TOG_BTN)
@@ -3013,7 +3013,7 @@ int init_nvram(void)
 
 		if (nvram_get("wl_mssid") && nvram_match("wl_mssid", "1"))
 			add_rc_support("mssid");
-		add_rc_support("2.4G 5G update usbX1");
+		add_rc_support("2.4G 5G update");
 		add_rc_support("qcawifi");
 		add_rc_support("switchctrl");
 		add_rc_support("manual_stb");
@@ -3070,7 +3070,7 @@ int init_nvram(void)
 
 		if (nvram_get("wl_mssid") && nvram_match("wl_mssid", "1"))
 			add_rc_support("mssid");
-		add_rc_support("2.4G 5G update usbX1");
+		add_rc_support("2.4G 5G update");
 		add_rc_support("qcawifi");
 		add_rc_support("switchctrl");
 		add_rc_support("manual_stb");
@@ -3142,7 +3142,7 @@ int init_nvram(void)
 
 		if (nvram_get("wl_mssid") && nvram_match("wl_mssid", "1"))
 			add_rc_support("mssid");
-		add_rc_support("2.4G 5G update usbX1");
+		add_rc_support("2.4G 5G update");
 		add_rc_support("qcawifi");
 		add_rc_support("switchctrl");
 		add_rc_support("manual_stb");
@@ -3220,7 +3220,7 @@ int init_nvram(void)
 
 		if (nvram_get("wl_mssid") && nvram_match("wl_mssid", "1"))
 			add_rc_support("mssid");
-		add_rc_support("2.4G 5G update usbX2");
+		add_rc_support("2.4G 5G update");
 		add_rc_support("qcawifi");
 		add_rc_support("switchctrl");
 		add_rc_support("manual_stb");
@@ -3289,7 +3289,7 @@ int init_nvram(void)
 
 		if (nvram_get("wl_mssid") && nvram_match("wl_mssid", "1"))
 			add_rc_support("mssid");
-		add_rc_support("2.4G 5G update usbX1");
+		add_rc_support("2.4G 5G update");
 		add_rc_support("qcawifi");
 		add_rc_support("switchctrl");
 		add_rc_support("manual_stb");
@@ -3489,7 +3489,7 @@ int init_nvram(void)
 
 		if (nvram_get("wl_mssid") && nvram_match("wl_mssid", "1"))
 			add_rc_support("mssid");
-		add_rc_support("2.4G 5G update usbX1");
+		add_rc_support("2.4G 5G update");
 		add_rc_support("qcawifi");
 		add_rc_support("switchctrl");
 		add_rc_support("manual_stb");
@@ -3542,7 +3542,7 @@ int init_nvram(void)
 
 		if (nvram_get("wl_mssid") && nvram_match("wl_mssid", "1"))
 			add_rc_support("mssid");
-		add_rc_support("2.4G 5G update usbX2");
+		add_rc_support("2.4G 5G update");
 		add_rc_support("qcawifi");
 		add_rc_support("switchctrl");
 		add_rc_support("manual_stb");
@@ -3675,7 +3675,7 @@ int init_nvram(void)
 
 		if (nvram_get("wl_mssid") && nvram_match("wl_mssid", "1"))
 			add_rc_support("mssid");
-		add_rc_support("2.4G 5G update usbX2");
+		add_rc_support("2.4G 5G update");
 		add_rc_support("qcawifi");
 		add_rc_support("switchctrl");
 		add_rc_support("manual_stb");
@@ -3758,7 +3758,7 @@ int init_nvram(void)
 		if (nvram_match("wl0_country_code", "XU")){
 			nvram_set("sb/1/eu_edthresh2g", "-69"); //for CE adaptivity certification
 		}
-		add_rc_support("2.4G mssid usbX1 nomedia small_fw");
+		add_rc_support("2.4G mssid nomedia small_fw");
 		break;
 #endif
 
@@ -4129,7 +4129,7 @@ int init_nvram(void)
 		nvram_set("ohci_ports", "2-1");
 		if (!nvram_get("ct_max"))
 			nvram_set("ct_max", "2048");
-		add_rc_support("2.4G mssid media usbX1 update");
+		add_rc_support("2.4G mssid media update");
 		break;
 #endif
 
@@ -4193,7 +4193,7 @@ int init_nvram(void)
 		nvram_set("ohci_ports", "2-1");
 		if (!nvram_get("ct_max"))
 			nvram_set("ct_max", "15000");
-		add_rc_support("2.4G mssid usbX1 nomedia");
+		add_rc_support("2.4G mssid nomedia");
 		add_rc_support("switchctrl"); // broadcom: for jumbo frame only
 		add_rc_support("manual_stb");
 		break;
@@ -4272,7 +4272,7 @@ int init_nvram(void)
 		nvram_set("sb/1/boardflags", "0x310");
 		if (!nvram_get("ct_max"))
 			nvram_set("ct_max", "300000");
-		add_rc_support("2.4G update usbX2 mssid");
+		add_rc_support("2.4G update mssid");
 		add_rc_support("switchctrl"); // broadcom: for jumbo frame only
 		add_rc_support("manual_stb");
 		break;
@@ -4421,7 +4421,7 @@ int init_nvram(void)
 
 		if (!nvram_get("ct_max"))
 			nvram_set("ct_max", "300000");
-		add_rc_support("mssid 2.4G update usbX2");
+		add_rc_support("mssid 2.4G update");
 		add_rc_support("switchctrl"); // broadcom: for jumbo frame only
 		add_rc_support("manual_stb");
 		add_rc_support("pwrctrl");
@@ -4538,7 +4538,7 @@ int init_nvram(void)
 
 		if (!nvram_get("ct_max"))
 			nvram_set("ct_max", "300000");
-		add_rc_support("mssid 2.4G 5G update usbX1");
+		add_rc_support("mssid 2.4G 5G update");
 		add_rc_support("switchctrl"); // broadcom: for jumbo frame only
 		add_rc_support("manual_stb");
 		add_rc_support("pwrctrl");
@@ -4670,7 +4670,7 @@ int init_nvram(void)
 
 		if (!nvram_get("ct_max"))
 			nvram_set("ct_max", "300000");
-		add_rc_support("mssid 2.4G 5G update usbX2");
+		add_rc_support("mssid 2.4G 5G update");
 		add_rc_support("switchctrl"); // broadcom: for jumbo frame only
 		add_rc_support("manual_stb");
 		add_rc_support("pwrctrl");
@@ -4828,7 +4828,7 @@ int init_nvram(void)
 
 		if (!nvram_get("ct_max"))
 			nvram_set("ct_max", "300000");
-		add_rc_support("mssid 2.4G 5G update usbX2");
+		add_rc_support("mssid 2.4G 5G update");
 		add_rc_support("switchctrl"); // broadcom: for jumbo frame only
 		add_rc_support("manual_stb");
 		add_rc_support("pwrctrl");
@@ -4867,7 +4867,7 @@ int init_nvram(void)
 		nvram_set("ohci_ports", "2-1");
 //		if (!nvram_get("ct_max"))
 			nvram_set("ct_max", "250000");
-		add_rc_support("mssid 2.4G 5G usbX1");
+		add_rc_support("mssid 2.4G 5G");
 		add_rc_support("switchctrl"); // broadcom: for jumbo frame only
 		add_rc_support("manual_stb");
 		add_rc_support("WIFI_LOGO");
@@ -5057,7 +5057,7 @@ int init_nvram(void)
 
 		if (!nvram_get("ct_max"))
 			nvram_set("ct_max", "300000");
-		add_rc_support("mssid 2.4G 5G update usbX2");
+		add_rc_support("mssid 2.4G 5G update");
 		add_rc_support("switchctrl"); // broadcom: for jumbo frame only
 		add_rc_support("manual_stb");
 		add_rc_support("pwrctrl");
@@ -5188,7 +5188,7 @@ int init_nvram(void)
 			nvram_set("ohci_ports", "2-1");
 		}
 #endif
-		add_rc_support("mssid 2.4G 5G update usbX2");
+		add_rc_support("mssid 2.4G 5G update");
 		add_rc_support("switchctrl"); // broadcom: for jumbo frame only
 		add_rc_support("manual_stb");
 		add_rc_support("pwrctrl");
@@ -5274,7 +5274,7 @@ int init_nvram(void)
 
 		if (!nvram_get("ct_max"))
 			nvram_set("ct_max", "300000");
-		add_rc_support("mssid 2.4G 5G update usbX2");
+		add_rc_support("mssid 2.4G 5G update");
 		add_rc_support("switchctrl"); // broadcom: for jumbo frame only
 		add_rc_support("manual_stb");
 		add_rc_support("pwrctrl");
@@ -5406,7 +5406,7 @@ int init_nvram(void)
 
 		if (!nvram_get("ct_max"))
 			nvram_set("ct_max", "300000");
-		add_rc_support("mssid 2.4G 5G update usbX2");
+		add_rc_support("mssid 2.4G 5G update");
 		add_rc_support("switchctrl"); // broadcom: for jumbo frame only
 		add_rc_support("manual_stb");
 		add_rc_support("pwrctrl");
@@ -5512,7 +5512,7 @@ int init_nvram(void)
 		}
 		if (!nvram_get("ct_max"))
 			nvram_set("ct_max", "300000");
-		add_rc_support("mssid 2.4G 5G update usbX2");
+		add_rc_support("mssid 2.4G 5G update");
 		add_rc_support("switchctrl"); // broadcom: for jumbo frame only
 		add_rc_support("manual_stb");
 		add_rc_support("pwrctrl");
@@ -5597,7 +5597,7 @@ int init_nvram(void)
 		nvram_set("ohci_ports", "2-1.4");
 		if (!nvram_get("ct_max"))
 			nvram_set("ct_max", "300000");
-		add_rc_support("2.4G 5G mssid usbX1 update");
+		add_rc_support("2.4G 5G mssid update");
 		break;
 #endif
 
