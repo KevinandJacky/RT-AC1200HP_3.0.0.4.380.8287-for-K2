@@ -1,6 +1,6 @@
 #!/bin/bash
 
-CURPATH=/home/RT_AC1200HP/asuswrt
+CURPATH=/home/jacky/RT-AC1200HP_3.0.0.4.380.8287-for-K2
 ln -s $CURPATH/tools/brcm /opt/brcm
 ln -s $CURPATH/tools/buildroot-gcc342 /opt/buildroot-gcc342
 export PATH=$PATH:/opt/brcm/hndtools-mipsel-linux/bin:/opt/brcm/hndtools-mipsel-uclibc/bin:/opt/buildroot-gcc342/bin
